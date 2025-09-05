@@ -152,6 +152,8 @@ a2.fazerSom();  // Saída: Miau
 
 ```
 
+---
+
 ## 💻 Criando Aluno
 
 ```bash
@@ -226,6 +228,8 @@ public class Teste{
 
 
 ```
+
+---
 
 ## 📅 Adicionando Data
 

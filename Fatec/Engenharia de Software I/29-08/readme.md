@@ -4,6 +4,8 @@
 
 <img src="./diagramaUML.png" />
 
+---
+
 ## 5. Código Java
 
 ### Lanches
@@ -72,6 +74,8 @@ public class Pedido {
     }
 }
 ```
+
+---
 
 ## 6. Testes Automatizados
 

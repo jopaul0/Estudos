@@ -5,6 +5,8 @@
 
 * O primeiro trecho da obra Software Engineering at Google traz uma ideia muito interessante e importante: A diferença entre os termos "Programadores" e "Engenheiros de Software". Muitas pessoas realmente desconhece a diferença entre os termos, visto que esses substantivos estão cotidianamente conectados. <strong>Todo engenheiro de software é um programador, porém nem todo programador é um engenheiro de software</strong>. O texto ainda ressalta que a confusão entre os termos ocorre por conta da engenharia de software criar algo não palpável, algo virtual, e também ter uma prática menos rígida. Embora haja uma diferença, o motivo do livro seria evidenciar elementos fundamentais utilizados pelos engenheiros.
 
+---
+
 ## 2. Comentário sobre o trecho abaixo
 <i>"Programming Over Time
  
@@ -27,6 +29,22 @@ How an organization makes decisions, based on the lessons of Time and Change and
 
 * A organização é a principal prática que deve ser aderida pelos profissionais, pois é ela que possibilita a todas as outras mudanças citadas. <strong>Sem organização fica complicado realizar uma manutenção, se torna difícil crescer o projeto e, o mais importante, torna o trabalho em equipe inviável</strong>. Um profissional mantém tudo documentado e organizado para que mudanças assim não causem muitos problemas. Engenharia de Software não se limita a programar, mas sim manter organizado e em concordância com as normas aplicadas. Portanto, é crucial conhecer essas regras.
 
-## 3.
 ---
+
+## 3.
+
+### Segurança x Usabilidade
+
+* Sistemas muito seguros (ex.: autenticação em várias etapas) podem ser menos amigáveis para o usuário.
+* Quanto mais fácil de usar, maior a chance de abrir brechas de segurança
+
+### Custo x Qualidade
+
+* Alta disponibilidade (99,999%) exige múltiplos servidores, redundância e monitoração, o que aumenta custos.
+* Reduzir custos implica aceitar menos redundância e mais risco de downtime.
+
+### Desempenho x Escalabilidade
+
+* Melhorar a velocidade em um servidor único pode dificultar distribuir a carga em muitos servidores.
+
 
