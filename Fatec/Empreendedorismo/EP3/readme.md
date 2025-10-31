@@ -2,7 +2,7 @@
 
 ## Pensamento Além das Fronteiras
 
-Aqui está um resumo da [Pensamento Além das Fronteiras I]() e da [Pensamento Além das Fronteiras II]():
+Aqui está um resumo da [Pensamento Além das Fronteiras I](https://www.youtube.com/watch?v=38a9R9_YcLg) e da [Pensamento Além das Fronteiras II](https://www.youtube.com/watch?v=Ty8DH2bd06k):
 
 O **Design Thinking** é uma abordagem de resolução de problemas focada nas pessoas, que utiliza a empatia, a colaboração e a experimentação para desenvolver soluções inovadoras. Mais do que uma técnica, é uma mentalidade que busca compreender profundamente um problema antes de propor soluções. É ideal para lidar com "problemas perversos" (wicked problems) — desafios complexos, ambíguos e sem solução aparente.
 
