@@ -2,7 +2,7 @@
 
 ## Máquinas E Mentes
 
-Aqui está um resumo da [Máquinas E Mentes](https://www.youtube.com/watch?v=UziOXVW1AJo) e da [Máquinas E Mentes](https://www.youtube.com/watch?v=y6N-aXy4LMo):
+Aqui está um resumo da [Máquinas E Mentes](https://www.youtube.com/watch?v=UziOXVW1AJo) e da [Máquinas E Mentes II](https://www.youtube.com/watch?v=y6N-aXy4LMo):
 
 A apostila aborda a ascensão da Inteligência Artificial (IA) como uma das maiores transformações da história , argumentando que ela está remodelando radicalmente o trabalho, a aprendizagem e a comunicação. O documento explora as dimensões técnicas, éticas e filosóficas dessa revolução , enfatizando que o futuro da IA é uma construção baseada em decisões tomadas no presente.
 
