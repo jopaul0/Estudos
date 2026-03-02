@@ -1,0 +1,103 @@
+{
+  "vingadores": [
+    {
+      "nome": "Tony Stark",
+      "codinome": "Homem de Ferro",
+      "armaPrincipal": "Armadura Mark 85",
+      "armaSecundaria": "Lasers Repulsores",
+      "velocidade": 75,
+      "forca": 80,
+      "resistencia": 70
+    },
+    {
+      "nome": "Steve Rogers",
+      "codinome": "Capitão América",
+      "armaPrincipal": "Escudo de Vibranium",
+      "armaSecundaria": "Mjolnir",
+      "velocidade": 80,
+      "forca": 85,
+      "resistencia": 80
+    },
+    {
+      "nome": "Thor Odinson",
+      "codinome": "Thor",
+      "armaPrincipal": "Stormbreaker",
+      "armaSecundaria": "Mjolnir",
+      "velocidade": 85,
+      "forca": 90,
+      "resistencia": 90
+    },
+    {
+      "nome": "Bruce Banner",
+      "codinome": "Hulk",
+      "armaPrincipal": "Punhos",
+      "armaSecundaria": "Smash",
+      "velocidade": 60,
+      "forca": 100,
+      "resistencia": 100
+    },
+    {
+      "nome": "Natasha Romanoff",
+      "codinome": "Viúva Negra",
+      "armaPrincipal": "Bastões de Choque",
+      "armaSecundaria": "Pistolas Glock 26",
+      "velocidade": 80,
+      "forca": 65,
+      "resistencia": 50
+    },
+    {
+      "nome": "Clint Barton",
+      "codinome": "Gavião Arqueiro",
+      "armaPrincipal": "Arco Recurvo",
+      "armaSecundaria": "Espada Ronin",
+      "velocidade": 75,
+      "forca": 70,
+      "resistencia": 55
+    },
+    {
+      "nome": "Wanda Maximoff",
+      "codinome": "Feiticeira Escarlate",
+      "armaPrincipal": "Magia do Caos",
+      "armaSecundaria": "Telepatia",
+      "velocidade": 70,
+      "forca": 100,
+      "resistencia": 60
+    },
+    {
+      "nome": "T'Challa",
+      "codinome": "Pantera Negra",
+      "armaPrincipal": "Garras",
+      "armaSecundaria": "Explosão de Vibranium",
+      "velocidade": 85,
+      "forca": 80,
+      "resistencia": 80
+    },
+    {
+      "nome": "Scott Lang",
+      "codinome": "Homem Formiga",
+      "armaPrincipal": "Partículas Pym",
+      "armaSecundaria": "Punhos",
+      "velocidade": 65,
+      "forca": 65,
+      "resistencia": 65
+    },
+    {
+      "nome": "Sam Wilson",
+      "codinome": "Falcão",
+      "armaPrincipal": "EXO-7 Falcon",
+      "armaSecundaria": "Pistolas Gêmeas",
+      "velocidade": 75,
+      "forca": 65,
+      "resistencia": 60
+    },
+    {
+      "nome": "Thanos",
+      "codinome": "Thanos",
+      "armaPrincipal": "Manopla do Infinito",
+      "armaSecundaria": "Espada de Dois Gumes",
+      "velocidade": 60,
+      "forca": 100,
+      "resistencia": 100
+    }
+  ]
+}
