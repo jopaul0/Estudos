@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Usuários</title>
+  <style>
+    body { font-family: sans-serif; margin: 30px; line-height: 1.6; }
+    table { width: 100%; max-width: 600px; border-collapse: collapse; margin-top: 15px; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    th { background: #f4f4f4; }
+    .btn-delete { background: #dc3545; color: white; border: none; padding: 5px 10px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Usuários Cadastrados</h1>
+  
+  <a href="/novo.html">+ Cadastrar Novo Usuário</a>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Idade</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody id="tabelaUsuarios">
+      <!-- Preenchido dinamicamente via JS -->
+    </tbody>
+  </table>
+
+  <script>
+    async function carregarUsuarios() {
+      const response = await fetch('/usuarios');
+      const usuarios = await response.json();
+
+      const tbody = document.getElementById('tabelaUsuarios');
+      tbody.innerHTML = '';
+
+      usuarios.forEach(u => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${u.nome}</td>
+          <td>${u.email}</td>
+          <td>${u.idade}</td>
+          <td>
+            <button class="btn-delete" onclick="deletarUsuario('${u._id}')">Excluir</button>
+          </td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    async function deletarUsuario(id) {
+      if (confirm('Tem certeza que deseja excluir este usuário?')) {
+        await fetch(`/usuarios/${id}`, { method: 'DELETE' });
+        carregarUsuarios();
+      }
+    }
+
+    carregarUsuarios();
+  </script>
+</body>
+</html>

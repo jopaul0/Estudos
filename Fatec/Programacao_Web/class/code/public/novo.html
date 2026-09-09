@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Novo Usuário</title>
+  <style>
+    body { font-family: sans-serif; margin: 30px; line-height: 1.6; }
+    form { display: flex; flex-direction: column; max-width: 300px; gap: 10px; }
+    input, button { padding: 8px; font-size: 14px; }
+    button { background: #007bff; color: white; border: none; cursor: pointer; }
+    button:hover { background: #0056b3; }
+  </style>
+</head>
+<body>
+  <h1>Cadastrar Usuário</h1>
+  
+  <form id="formUsuario">
+    <label>Nome:</label>
+    <input type="text" id="nome" required>
+
+    <label>Email:</label>
+    <input type="email" id="email" required>
+
+    <label>Idade:</label>
+    <input type="number" id="idade" required>
+
+    <button type="submit">Salvar</button>
+  </form>
+
+  <br>
+  <a href="/">← Voltar para a lista</a>
+
+  <script>
+    document.getElementById('formUsuario').addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const usuario = {
+        nome: document.getElementById('nome').value,
+        email: document.getElementById('email').value,
+        idade: Number(document.getElementById('idade').value)
+      };
+
+      const response = await fetch('/usuarios', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(usuario)
+      });
+
+      if (response.ok) {
+        alert('Usuário cadastrado com sucesso!');
+        window.location.href = '/';
+      } else {
+        const erro = await response.json();
+        alert('Erro ao cadastrar: ' + erro.erro);
+      }
+    });
+  </script>
+</body>
+</html>
